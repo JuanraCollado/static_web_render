@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Sitio Estático en Render</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Sitio Estático en Render</h1>
+    <p>Ejemplo mínimo con HTML, CSS y JavaScript ejecutándose en el navegador.</p>
+
+    <div class="info">
+      <p><strong>Hora local del cliente:</strong> <span id="reloj">--:--:--</span></p>
+      <p><strong>Estado JS:</strong> <span id="estado" class="badge">Cargando...</span></p>
+    </div>
+
+    <div class="acciones">
+      <button id="btn-contador">Clics: <span id="contador">0</span></button>
+      <button id="btn-tema" class="secundario">Cambiar tema</button>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
